@@ -55,16 +55,16 @@ export default siteConfig({
   pageUrlOverrides: null,
 
   // 是否使用默认的 notion 导航样式或具有重要页面链接的自定义样式
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: '关于我',
+      pageId: 'f6cba349c03444c38b703e94fc3c4659'
+    },
+    {
+      title: '联系方式',
+      pageId: '89b8d81576f84c9597b6d0a4471a560b'
+    }
+  ]
 })
